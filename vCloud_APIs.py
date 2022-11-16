@@ -297,7 +297,7 @@ class vcloud():
 
 # ---- Function discardSuspend_VM  ---- 
 # accepts vm_href as input (returnned by getvappDetails() function)
-# and power off the VM
+# and power off the VM which is in suspend status
 # x (returned data) in case of 202 status code contains a TASK ID that you can track to see the result of action
 
     def discardSuspend_VM(self, vm_href):
