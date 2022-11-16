@@ -1,0 +1,13 @@
+{
+    "//api_version_description":  "string-value - vCloud Director supports different API-version schemas, for example '36.2'",   
+    "api_version" : "API_Version_You_Want_To_Use",
+    "//base_url_old_description":  "string-value",
+    "base_url_old" : "https://<vCloud-Director-FGDN-or-IPAddress>/api",
+    "//base_url_new_description":  "string-value",
+    "base_url_new" : "https://<vCloud-Director-FGDN-or-IPAddress>/cloudapi/1.0.0",
+    "//username_description":  "string-value - vCloud Director username for authentication for example admin@system",
+    "username" : "username@organization",
+    "//password_description":  "string-value - vCloud Director password for authentication",
+    "password" : "password"
+
+}
