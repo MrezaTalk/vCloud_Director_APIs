@@ -8,7 +8,7 @@ with open("config.json", "r") as f:
     
 class vcloud():
 
-    def __init__(self, auth_url, base_url_old, base_url_new ,username, password, api_version):
+    def __init__(self):
 
         self.auth_url = config['base_url_new'] + "/sessions/provider"
         self.base_url_old = config['base_url_old']
